@@ -461,3 +461,11 @@ z-index: 1000;
           .back_to_top-show {
             display: block;
           }
+          .map{
+            width:500px; 
+            height:350px;
+           text-align: center;
+           justify-content: center;
+           margin-left: 800px;
+           margin-top: -300px;
+        }

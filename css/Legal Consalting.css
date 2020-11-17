@@ -90,9 +90,18 @@ body{
  }
 .top_footer{
     background: #000;
-    position: relative;
- margin-top: 500px;
+    
+ margin-top: 1200px;
     padding-bottom: 70px;
+    
+}
+.map{
+    width:500px; 
+    height:350px;
+   text-align: center;
+   justify-content: center;
+   margin-left: 800px;
+   margin-top: -300px;
 }
 .foot{
 margin-top: 70px; 

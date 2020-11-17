@@ -963,3 +963,11 @@ color: #FFB300;
     color:#FFB300;
     transition: .4s;
 }
+.map{
+    width:500px; 
+    height:350px;
+   text-align: center;
+   justify-content: center;
+   margin-left: 800px;
+   margin-top: -300px;
+}
