@@ -3,25 +3,65 @@
 <head>
     <title>London City Associates.com</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="css/Accounting services.css">
+
+<link rel="stylesheet" href="css/Legal Consalting.css">
 <link rel="stylesheet" href="css/ef.css">
 
+<link rel="stylesheet" href="css/menu3.css">
 <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="fontawesome-free/css/font-awesome.min.css">
+        <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"> </script>
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fontawesome-free/css/font-awesome.min.css">
 <link rel="shortcut icon" href="logo.ico" type="img/x-icon">
-       
+<script
+src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"
+></script>
        
 </head>
 <body>
     <div class="fix">
+        <div class="mobile-navigation">
+            <a href="#" class="burger-link"><span>
+      
+            </span>
+        </a>
+            <div class="mobile-nav">
+                <ul class="mobile-menu">
+                  <img src="img/logo.png" class="img_mobile">
+                  <li class="menu-item">
+                      
+                    <a href="home.html" class="menu-link signInMobile" style="margin-top: -20px;">London City Associates Ltd</a>
+                </li>
+               <li class="menu-item"><i class="fa fa-envelope" ><span style="margin-left: 10px;">mail@londoncityassociates.com</span></i></li>
+               <li class="menu-item"><i class="fa fa-phone" style="margin-top: -25px;"><span> +44 75 68 521 593</span></i></li>
+                
+                    <li class="menu-item">
+                      
+                        <a href="home.html" class="menu-link signInMobile">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="Accounting Services.html" class="menu-link">Accounting Services</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="Legal Consalting.html" class="menu-link">Legal Consalting</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="Contact.html" class="menu-link">Contact US</a>
+                    </li>
+                    
+                </ul>
+            </div>
+          </div>
         <div class="navigation">
             <div сlass="nav">
                 <p class="text_p">London City Associates Ltd</p>
@@ -44,9 +84,9 @@
     </div>
     
     <div class="tic">
-        <h1 class="ribbon">London City Associates Ltd</h1>
+        <h1 class="ribbon"><p>London City Associates Ltd</p></h1>
         
-        <h1 class="ribbon1" id="ff-proof">Services > Accounting Services</h1>
+        <h1 class="ribbon1" id="ff-proof"><p>Services > Accounting Services</p></h1>
         </div>
     <div class="services">
         <div id="service-text">
@@ -76,7 +116,7 @@
                         <a href="#" title="">More info</a>
                     </div>
                 </li>
-                <li>
+                <li class="payroll">
                     <img src="img/Payroll.jpg" alt="" />
                     <div class="movieinfo">
                         <h3>Payroll</h3>
@@ -86,7 +126,7 @@
                 </li>
             </ul>
             <ul id="movieposters">
-                <li>
+                <li class="tax_invest">
                     <img src="img/Tax investigations.jpg" alt="" />
                     <div class="movieinfo">
                         <h3>Tax Investigations
@@ -95,7 +135,7 @@
                         <a href="#" title="">More info</a>
                     </div>
                 </li>
-                <li>
+                <li class="vat">
                     <img src="img/VAT.jpg" alt="" />
                     <div class="movieinfo">
                         <h3>VAT</h3>
@@ -103,7 +143,7 @@
                         <a href="#" title="">More info</a>
                     </div>
                 </li>
-                <li>
+                <li class="company_accounts">
                     <img src="img/Company accounts.jpg" alt="" />
                     <div class="movieinfo">
                         <h3>Company Accounts</h3>
@@ -113,7 +153,7 @@
                 </li>
             </ul>
             <ul id="movieposters">
-                <li>
+                <li class="cis">
                     <img src="img/CIS.jpg" alt="" />
                     <div class="movieinfo">
                         <h3>CIS</h3>
@@ -129,7 +169,7 @@
                         <a href="#" title="">More info</a>
                     </div>
                 </li>
-                <li>
+                <li class="reference">
                     <img src="img/Reference letters.jpg" alt="" />
                     <div class="movieinfo">
                         <h3>Reference Letters</h3>
@@ -168,11 +208,80 @@
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
         }
         </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js'></script>
-    
+        <script>
+            const inputs = document.querySelectorAll(".input");
+          
+          function focusFunc() {
+          let parent = this.parentNode;
+          parent.classList.add("focus");
+          }
+          
+          function blurFunc() {
+          let parent = this.parentNode;
+          if (this.value == "") {
+          parent.classList.remove("focus");
+          }
+          }
+          
+          inputs.forEach((input) => {
+          input.addEventListener("focus", focusFunc);
+          input.addEventListener("blur", blurFunc);
+          });
+          </script>
+          <script>
+            $(".userInput").focus(function () {
+                $(this).parent().addClass("focus");
+            }).blur(function () {
+                if($(this).val()===''){
+                    $(this).parent().removeClass("focus");
+                }
+            })
+          </script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+              <script type="text/javascript">
+               $(document).ready(function() {
+                  
+                   TweenMax.from(".burger-link",1,{
+                       delay: .4,
+                       y: -20,
+                       opacity: 0,
+                       ease: Expo.easeInfout
+                   });
+                  var link=$('.burger-link');
+                  var link_active=$('.burger-link_active');
+                  var navigation=$('.mobile-nav');
+                  var nav_active=$('.nav-active');
+                  var sign = $('.signIn');
+                  var signBlock = $('.sign-block');
+                  var signBlock_active = $('.sign-block_active');
+                  var exit = $('.exit');
+                  var signInMobile = $('.signInMobile');
+                  link.click(function(){
+                      link.toggleClass('burger-link_active');
+                      navigation.toggleClass('nav-active');
+          
+                  });
+                  link_active.click(function(){
+                      navigation.removeClass('nav-active');
+                  });
+                  sign.click(function(){
+                      signBlock.toggleClass('sign-block_active');
+                  });
+                  signInMobile.click(function(){
+                      signBlock.toggleClass('sign-block_active');
+                      navigation.removeClass('nav-active');
+                      link.removeClass('burger-link_active');
+                  });
+                  exit.click(function(){
+                      signBlock.removeClass('sign-block_active');
+                      
+                  });
+              });
+              </script>
+              <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js'></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="js/index.js"></script>
         <script src="js/ef.js"></script>
         <script src="js/button.js"></script>

@@ -1,4 +1,3 @@
-
 .nav-menu{
     width: 20%;
     
@@ -131,7 +130,12 @@
       width: 18.5%;
       height: 7.3%;
           }
-         
+         #service-text{
+             font-size: 24px;
+             text-align: center;
+             width: 83.5%;
+             margin-left: 110px;
+         }
         .nav3{
           width: 100%;
           margin-left: 40px;
@@ -242,8 +246,8 @@
       }
       .img2{
     margin-left: -19px;
-    width: 16%;
-    height: 8.5%;
+    width: 17.4%;
+    height: 9.2%;
       }
       .text_p{
         max-width: 65%;
@@ -287,9 +291,34 @@
      .form{
       margin-left: 70px;
     }
-    #men{
-        margin-left: 120px;
+    .payroll{
+        margin-top: 1600px;
+        
     }
+    .reference{
+        margin-top: 170px;
+        margin-left: 500px;
+    }
+    .company_accounts{
+        margin-top: 1400px;
+        margin-left: 280px;
+    }
+    .top_footer{
+        margin-top: 900px;
+    }
+    .map{
+        width: 30%;
+        margin-left: 680px;
+    }
+    #movieposters{
+        display: grid;
+        grid-template-columns: 450px 450px;
+        grid-auto-rows: 10px;
+        grid-auto-rows: minmax(10px, auto);
+        grid-column-gap: 10px;
+        grid-row-gap: 1em; 
+   margin-left: 30px;
+      }
     }
       @media screen and (max-width: 1000px){
          
@@ -316,11 +345,27 @@
       }
     @media screen and (max-width: 768px){
       .ribbon1{
-        width: 40%;
+        width: 45%;
         margin-left: 100px;
+      }
+      .services{
+          margin-left: -95px;
+          width: 110%;
+      }
+      .reference{
+          margin-top: 355px;
+          margin-left: 350px;
+      }
+      .payroll{
+          margin-top: 1800px;
       }
       .form{
         margin-left: 4px;
+      }
+      .company_accounts{
+          margin-top: 1600px;
+          margin-left: 200px;
+        
       }
       .burger-link span{
         color: #fff;
@@ -345,7 +390,7 @@
    margin-left: -80px;
       }
       .top_footer{
-          margin-top: 300px;
+          margin-top: 1100px;
       }
      #employment{
          margin-top: 800px;
@@ -359,7 +404,7 @@
          font-size: 13px;
      }
      .map{
-         width: 30%;
+         width: 38%;
          margin-left: 450px;
      }
     }
@@ -375,14 +420,22 @@
       margin-bottom: -15px;
       }
       
-      .ribbon1{height: 40px;right: 100px; width: 65%;
-      }
+      .ribbon1{height: 40px;right: 100px; width: 65%;}
       .top_footer{
           margin-top: 1400px;
+      }
+      .tax_invest{
+          margin-top: 400px;
       }
      .footer{
        font-size: 12px;
        margin-left: -90px;
+     }
+     .vat{
+         margin-top: 350px;
+     }
+     .cis{
+         margin-top: 500px;
      }
      #men{
          width: 90%;
