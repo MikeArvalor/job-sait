@@ -346,7 +346,7 @@
     @media screen and (max-width: 768px){
       .ribbon1{
         width: 45%;
-        margin-left: 100px;
+        margin-left: 75px;
       }
       .services{
           margin-left: -95px;
@@ -354,7 +354,7 @@
       }
       .reference{
           margin-top: 355px;
-          margin-left: 350px;
+          margin-left: 370px;
       }
       .payroll{
           margin-top: 1800px;
@@ -387,7 +387,7 @@
         grid-auto-rows: minmax(10px, auto);
         grid-column-gap: 10px;
         grid-row-gap: 5em; 
-   margin-left: -80px;
+   margin-left: -90px;
       }
       .top_footer{
           margin-top: 1100px;
@@ -401,12 +401,14 @@
      }
      .contact-info{
          margin-left: -80px;
-         font-size: 13px;
+         font-size: 12px;
      }
      .map{
          width: 38%;
-         margin-left: 450px;
+         
+         margin-left: 410px;
      }
+     
     }
     @media screen and (max-width: 500px) {
         
