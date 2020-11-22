@@ -21,23 +21,24 @@ body{
      
      justify-content: center;
   }
-  .nav1{
-   
-  }
-  .img1{
-     margin-top: -95px;
-     justify-content: center;
-     margin-left: 50px;
-     
-  }
-  .img2{
-     margin-top: 5px;
-     width:75%;
-     height: 100%;
-         justify-content: center;
+  .nav{
+    display: flex;
+}
+.img1{
+    position: relative;
+    margin-top: -26px;
     
+    margin-left: 35px;
     
-  }
+}
+.img2{
+  
+
+        margin-left: 24px;
+        width: 17.9%;
+        height: 9%;
+    position: fixed;
+}
   .text_p{
      margin-top: 20px;
      margin-left: 150px;
@@ -101,7 +102,7 @@ margin-top: 70px;
     color: #fff;
     font-size: 16px;
     width: 400px;
-    font-family: 'Roboto', sans-serif;
+  
     
 
 
@@ -127,6 +128,7 @@ margin-top: 70px;
     background: #222121;
     color: #fff;
     
+    
 }
 .footer p{
     margin-top: -20px;
@@ -137,7 +139,7 @@ margin-top: 70px;
     
 }
 .footer span{ 
-    margin-left: 105px;
+    margin-left: 107px;
 }
 .footer i{
     font-size: 18px;
