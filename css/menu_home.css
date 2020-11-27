@@ -148,15 +148,14 @@
         .nav3 p{
           margin-right: 110px;
         }
-        
-      
+        .fon p{margin-left: 450px;}
+      .fon a{ margin-left: 100px;}
           .form{
             margin-left: 280px;
           }
-          .footer span{
-            margin-left: 100px;
+          .footer p{
+            margin-left: 200px;
           }
-         
           .map{width: 100px;height: 300px;}
     }
     @media screen and (max-width:1400px){}
@@ -191,10 +190,10 @@
         max-width: 90%;
     left:-95px;
     left: calc(50% - 620px);
-    
-    
-        }
+      }
+   
         
+      
     @media screen and (max-width:1300px){
       .nav{
         grid-template-columns: 1fr;
@@ -226,7 +225,7 @@
             margin-left:-63px;
             left: calc(50% - 520px);
             }
-      
+
     }
     @media screen and (max-width: 1370px){
       .nav2{ margin-left: 10px;}
@@ -237,7 +236,8 @@
         width: 16.3% !important;
         height: 9.3% !important;
           }
-         
+          .fon p{margin-left: 350px;}
+          .fon a{ margin-left: -50px;}
     }
     @media screen and (max-width: 1200px){
       .img1{
@@ -252,8 +252,9 @@
     }
     .footer p{margin-left:200px ;}
       .fon a{
-        margin-right: 120px;
+        margin-left: 40px;
       }
+      .fon p{ margin-left: 230px;}
       .card{
         display:  grid;
         grid-template-columns: 300px 300px 300px;
