@@ -129,9 +129,11 @@
       .img2{
         margin-left: 40px;
       width: 18.5%;
-      height: 7.3%;
+      height: 7.8% !important;
           }
-         
+         .leg_cert{
+           margin-top: 10px;
+         }
         .nav3{
           width: 100%;
           margin-left: 40px;
@@ -139,7 +141,9 @@
         .nav2{
           margin-left: 60px;
         }
-     
+     .top_footer{
+       margin-top: -100px;
+     }
         .nav3 p{
           margin-right: 110px;
         }
@@ -156,8 +160,8 @@
           .footer span{
             margin-left: 100px;
           }
-          #men{
-            margin-left: 320px;  
+          .men{
+            margin-left: 350px;  
           }
           .map{
               width: 40%;
@@ -171,7 +175,7 @@
     .img2{
     margin-left: 30px;
     width: 16%;
-    height: 9%;
+    height: 9% !important;
     }
     .text_p{
       max-width: 100%;
@@ -226,19 +230,23 @@
             margin-left:-63px;
             left: calc(50% - 520px);
             }
-      
+      .men{margin-left: 130px;}
+      .leg_cert{
+        margin-top: -290px;
+      }
     }
     @media screen and (max-width: 1370px){
       .nav2{ margin-left: 10px;}
       .nav3 p{ margin-left: -130px;}
-      #men{
-          margin-left: 280px;
-      }
+      .men{margin-left: 300px;}
     }
     @media screen and (max-width: 1200px){
       .img1{
         left: -30px;
         width: 20%;
+      }
+      .top_footer{
+        margin-top: 300px;
       }
       .img2{
     margin-left: -19px;
@@ -251,6 +259,7 @@
         font-size: 15px;
         
         }
+        
       .nav{
         max-width: 80%;
         font-size: 16px;
@@ -287,9 +296,13 @@
      .form{
       margin-left: 70px;
     }
-    #men{
-        margin-left: 120px;
+    .men{
+        margin-left: 130px;
     }
+    .map{
+      width: 30%;
+    }
+    #movieposters{margin-left: 45px;}
     }
       @media screen and (max-width: 1000px){
          
@@ -311,7 +324,6 @@
     .ribbon1{
       margin-left: 280px;
     }
-         
     
       }
     @media screen and (max-width: 768px){
@@ -319,9 +331,7 @@
         width: 40%;
         margin-left: 100px;
       }
-      .form{
-        margin-left: 4px;
-      }
+      
       .burger-link span{
         color: #fff;
       }
@@ -331,8 +341,14 @@
       .footer{
         margin-left: -80px;
       }
-      #men{
-        margin-left: 20px;
+      .men{
+        margin-left: 15px;
+      }
+      
+      .leg_cert{
+        margin-top: 500px;
+        margin-left: -150px !important;
+
       }
       #movieposters{
         display: grid;
@@ -345,12 +361,14 @@
    margin-left: -80px;
       }
       .top_footer{
-          margin-top: 300px;
+          margin-top: 450px;
       }
      #employment{
-         margin-top: 800px;
+         margin-top: 180px;
+         margin-left: 340px;
         
      }
+  
      .foot{
          margin-left: 35px;
      }
@@ -359,7 +377,7 @@
          font-size: 13px;
      }
      .map{
-         width: 30%;
+         width: 35%;
          margin-left: 450px;
      }
     }
@@ -378,15 +396,19 @@
       .ribbon1{height: 40px;right: 100px; width: 65%;
       }
       .top_footer{
-          margin-top: 1400px;
+          margin-top: 1500px;
       }
      .footer{
        font-size: 12px;
        margin-left: -90px;
      }
-     #men{
+     .men{
+       margin-top: 20px;
          width: 90%;
          margin-left: 15px;
+     }
+     .leg_ass{
+       margin-top: 550px;
      }
     
      #movieposters{
@@ -400,7 +422,7 @@
    margin-left: -50px;
       }
       #employment{
-          margin-top: 1100px;
+          margin-top: 1080px;
           margin-left: 10px;
       }
       .map{
@@ -408,49 +430,122 @@
           width: 80%;
           margin-top: 12px;
       }
-      .movie{ padding-top: 420px;}
+     .leg_cert{margin-top: 510px; margin-left: 1px !important;}
     }
     @media screen and (max-width: 380px) {
-        #movieposters{
-            display: grid;
-            
-            grid-template-columns: 100px;
-            grid-auto-rows: 10px;
-            grid-auto-rows: minmax(10px, auto);
-            grid-column-gap: 10px;
-            grid-row-gap: 35em; 
+      .ribbon{height: 40px; margin-top: 30px; }
+      .tic{width: 116%;}
+      .tic p{
+        margin-top: -20px;
+      }
+      .tic h1{
+       font-size: 22px;
+      margin-bottom: -15px;
+      }
+      
+      .ribbon1{height: 40px;right: 100px; width: 65%;
+      }
+      .top_footer{
+          margin-top: 1500px;
+          width: 116%;
+      }
+     .footer{
+       font-size: 12px;
        margin-left: -90px;
-          }
+       width: 140%;
+     }
+     .men{
+       margin-top: 20px;
+         width: 100%;
+         margin-left: 35px;
+     }
+     .lc span{
+       margin-left: 70px;
+       width: 100%;
+       font-size: 50px;
+     }
+     .leg_ass{
+       margin-top: 550px;
+     }
+    
+     #movieposters{
+        display: grid;
+        
+        grid-template-columns: 100px;
+        grid-auto-rows: 10px;
+        grid-auto-rows: minmax(10px, auto);
+        grid-column-gap: 10px;
+        grid-row-gap: 35em; 
+   margin-left: -50px;
+      }
+      #employment{
+          margin-top: 1080px;
+          margin-left: 10px;
+      }
+      .map{
+          margin-left: 40px;
+          width: 80%;
+          margin-top: 12px;
+      }
+     .leg_cert{margin-top: 510px; margin-left: 1px !important;}
+
 
     }
     @media screen and (max-width: 330px) {
-        #movieposters{
-            display: grid;
-            
-            grid-template-columns: 100px;
-            grid-auto-rows: 10px;
-            grid-auto-rows: minmax(10px, auto);
-            grid-column-gap: 10px;
-            grid-row-gap: 25em; 
-       margin-left: -80px;
-          }
-          .movie{ padding-top: 520px;}
-          #employment{
-            margin-top: 0px;
-            margin-left: 10px;
-        }
-        .top_footer{
-            margin-top: 800px;
-        }
-          #movieposters img{
-              width: 250px;
-              height: 250px;
-          }
-          .movieinfo{
-              width: 200px;
-              height: 200px;
-          }
-
+      .ribbon{height: 40px; margin-top: 30px; }
+      .tic{width: 136%;}
+      .tic p{
+        margin-top: -20px;
+      }
+      .tic h1{
+       font-size: 22px;
+      margin-bottom: -15px;
+      }
+      
+      .ribbon1{height: 40px;right: 100px; width: 65%;
+      }
+      .top_footer{
+          margin-top: 1500px;
+          width: 136%;
+      }
+     .footer{
+       font-size: 12px;
+       margin-left: -90px;
+       width: 164.5%;
+     }
+     .men{
+       margin-top: 20px;
+         width: 100%;
+         margin-left: 45px;
+     }
+     .lc span{
+       margin-left: 90px;
+      font-size: 40px;
+     }
+     .leg_ass{
+       margin-top: 550px;
+     }
+    
+     #movieposters{
+        display: grid;
+        
+        grid-template-columns: 100px;
+        grid-auto-rows: 10px;
+        grid-auto-rows: minmax(10px, auto);
+        grid-column-gap: 10px;
+        grid-row-gap: 35em; 
+   margin-left: -50px;
+      }
+      #employment{
+          margin-top: 1080px;
+          margin-left: 10px;
+      }
+      .map{
+          margin-left: 40px;
+          width: 80%;
+          margin-top: 12px;
+      }
+     .leg_cert{margin-top: 510px; margin-left: 1px !important;}
     }
     @media screen and(max-height: 650px ){
       

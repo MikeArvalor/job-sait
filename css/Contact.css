@@ -28,17 +28,17 @@ body{
 }
 .img1{
   position: relative;
-  margin-top: -26px;
+  margin-top: -12px;
   
   margin-left: 35px;
   
 }
 .img2{
 
-
+margin-top: 17px;
       margin-left: 24px;
-      width: 17.9%;
-      height: 9%;
+      width: 47.9%;
+      height: 19%;
   position: fixed;
 }
 .text_p{
@@ -54,7 +54,7 @@ body{
    grid-column-end: 3; 
    grid-row-start: 2; 
    grid-row-end: 3;
-   margin-top: -30px;
+   margin-top: -27px;
    position: relative;
    font-size: 19.6px;
    

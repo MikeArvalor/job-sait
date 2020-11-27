@@ -126,9 +126,9 @@
     }
     @media screen and (max-width:1500px){
       .img2{
-        margin-left: 40px;
-      width: 18.5%;
-      height: 7.3%;
+        margin-left: 37px !important;
+      width: 14.5% !important;
+      height: 8.3% !important;
           }
          #service-text{
              font-size: 24px;
@@ -173,9 +173,9 @@
       left: -5px;
     }
     .img2{
-    margin-left: 30px;
-    width: 16%;
-    height: 9%;
+    margin-left: 30px !important;
+    width: 16% !important;
+    height: 9% !important; 
     }
     .text_p{
       max-width: 100%;
@@ -245,9 +245,9 @@
         width: 20%;
       }
       .img2{
-    margin-left: -19px;
-    width: 17.4%;
-    height: 9.2%;
+    margin-left: -19px !important;
+    width: 17.4% !important;
+    height: 9.2% !important;
       }
       .text_p{
         max-width: 65%;
@@ -292,19 +292,19 @@
       margin-left: 70px;
     }
     .payroll{
-        margin-top: 1600px;
+        margin-top: 1380px;
         
     }
     .reference{
-        margin-top: 170px;
+        margin-top: 240px;
         margin-left: 500px;
     }
     .company_accounts{
-        margin-top: 1400px;
+        margin-top: 1300px;
         margin-left: 280px;
     }
     .top_footer{
-        margin-top: 900px;
+        margin-top: 1000px;
     }
     .map{
         width: 30%;
@@ -340,6 +340,7 @@
     .ribbon1{
       margin-left: 280px;
     }
+   
          
     
       }
@@ -348,22 +349,23 @@
         width: 45%;
         margin-left: 75px;
       }
+      #wrapper{ margin-left: 20px;}
       .services{
-          margin-left: -95px;
+          margin-left: -80px;
           width: 110%;
       }
       .reference{
-          margin-top: 355px;
+          margin-top: 215px;
           margin-left: 370px;
       }
       .payroll{
-          margin-top: 1800px;
+          margin-top: 1350px;
       }
       .form{
         margin-left: 4px;
       }
       .company_accounts{
-          margin-top: 1600px;
+          margin-top: 1300px;
           margin-left: 200px;
         
       }
@@ -412,38 +414,53 @@
     }
     @media screen and (max-width: 500px) {
         
-      
+      .reference{
+        margin-top: 2100px; margin-left: -20px;
+        
+      }
       .ribbon{height: 40px; margin-top: 30px; }
+      .tic{ width: 102.5%;}
       .tic p{
         margin-top: -20px;
+      }
+      .ribbon1 p{
+        margin-left: 25px;
       }
       .tic h1{
        font-size: 22px;
       margin-bottom: -15px;
       }
-      
-      .ribbon1{height: 40px;right: 100px; width: 65%;}
+      #service-text{margin-left: 100px;}
+      .ribbon1{height: 40px;right: 100px; width: 70%;}
       .top_footer{
-          margin-top: 1400px;
+          margin-top: 3200px;
       }
       .tax_invest{
-          margin-top: 400px;
+          margin-top: 480px; margin-left: -20px;
       }
      .footer{
        font-size: 12px;
        margin-left: -90px;
      }
      .vat{
-         margin-top: 350px;
+         margin-top: 480px; margin-left: -20px;
      }
      .cis{
-         margin-top: 500px;
+         margin-top: 1500px; margin-left: -20px;
      }
      #men{
          width: 90%;
          margin-left: 15px;
      }
-    
+    .compliance{
+      margin-top: 430px; margin-left: -20px;
+    }.payroll{
+      margin-top: 2150px; margin-left: -20px;
+    }
+    .company_accounts{
+      margin-top: 2120px;
+      margin-left: -20px;
+    }
      #movieposters{
         display: grid;
         
@@ -451,8 +468,11 @@
         grid-auto-rows: 10px;
         grid-auto-rows: minmax(10px, auto);
         grid-column-gap: 10px;
-        grid-row-gap: 35em; 
+        grid-row-gap: 32em; 
    margin-left: -50px;
+      }
+      .bookkeeping{
+        margin-left: -20px;
       }
       #employment{
           margin-top: 1100px;
@@ -463,12 +483,13 @@
           width: 80%;
           margin-top: 12px;
       }
+      .self{margin-left: -20px;}
       .movie{ padding-top: 420px;}
     }
     @media screen and (max-width: 380px) {
         #movieposters{
             display: grid;
-            
+           
             grid-template-columns: 100px;
             grid-auto-rows: 10px;
             grid-auto-rows: minmax(10px, auto);
@@ -476,12 +497,31 @@
             grid-row-gap: 35em; 
        margin-left: -90px;
           }
+          .bookkeeping{
+            margin-left: 30px;
+          }
+          .self{margin-left: 30px;}
+          .tax_invest{margin-left: 30px; margin-top: 560px;}
+          .vat{margin-left: 30px; margin-top: 550px;}
+          .compliance{margin-left: 30px; margin-top: 550px;}
+          .cis{margin-left: 30px; margin-top: 1690px;}
+          .payroll{margin-left: 30px; margin-top: 2230px; }
+          .company_accounts{margin-left: 30px; margin-top: 2230px;}
+          .reference{margin-left: 30px; margin-top: 2230px;}
+          .tic{width: 116%;}
+          #service-text{ margin-left: 120px;}
+          .ribbon1{height: 40px;right: 100px; width: 80%;}
+          .top_footer{
+            margin-top: 3400px;
+            width: 115.3%;
+          }
+          .footer{width: 140%;}
 
     }
     @media screen and (max-width: 330px) {
         #movieposters{
             display: grid;
-            
+          
             grid-template-columns: 100px;
             grid-auto-rows: 10px;
             grid-auto-rows: minmax(10px, auto);
@@ -489,14 +529,17 @@
             grid-row-gap: 25em; 
        margin-left: -80px;
           }
+          
+          .reference{
+            margin-top: 1120px;
+           
+          }
           .movie{ padding-top: 520px;}
           #employment{
             margin-top: 0px;
             margin-left: 10px;
         }
-        .top_footer{
-            margin-top: 800px;
-        }
+        
           #movieposters img{
               width: 250px;
               height: 250px;
@@ -505,8 +548,64 @@
               width: 200px;
               height: 200px;
           }
-
-    }
+          .top_footer{
+            margin-top: 1800px;
+            width: 136%;
+        }
+        .tax_invest{
+            margin-top: 220px;
+        }
+       .footer{
+         font-size: 12px;
+         margin-left: -90px;
+         width: 164%;
+        
+       }
+       .vat{
+           margin-top: 180px;
+       }
+       .cis{
+           margin-top: 820px;
+       }
+       #men{
+           width: 90%;
+           margin-left: 15px;
+       }
+      .compliance{
+        margin-top: 1px;
+      }.payroll{
+        margin-top: 1500px;
+      }
+      .company_accounts{
+        margin-top: 1320px;
+        
+      }
+      #service-text{ margin-left: 150px;}
+       #movieposters{
+          display: grid;
+          
+          grid-template-columns: 100px;
+          grid-auto-rows: 10px;
+          grid-auto-rows: minmax(10px, auto);
+          grid-column-gap: 10px;
+          grid-row-gap: 35em; 
+     margin-left: -80px;
+     font-size: 12px;
+        }
+        #employment{
+            margin-top: 1100px;
+            margin-left: 10px;
+        }
+        .map{
+            margin-left: 40px;
+            width: 80%;
+            margin-top: 12px;
+        }
+        .self{margin-top: -30px;}
+        .movie{ padding-top: 420px;}
+        .tic{width: 135.2%;}
+      }
+    
     @media screen and(max-height: 650px ){
       
     }

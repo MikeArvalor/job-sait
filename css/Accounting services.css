@@ -34,10 +34,11 @@ body{
 .img2{
   
 
-        margin-left: 24px;
-        width: 17.9%;
-        height: 9%;
-    position: fixed;
+    margin-top: 22px;
+    margin-left: 24px;
+    width: 47.9%;
+    height: 19%;
+position: fixed;
 }
   .text_p{
      margin-top: 20px;
@@ -228,7 +229,7 @@ z-index: 1000;
 
 #movieposters { list-style:none; 
     margin:100px 0; 
-    height:550px; }
+    height:550px;  }
 #movieposters li { display:inline;
      float:left;
       padding-left: 120px;
@@ -260,6 +261,7 @@ z-index: 1000;
     
     
       text-align:center;
+      margin-top: -90px;
        padding-bottom:15px; }
 .movieinfo p { padding-bottom:15px; text-align: center;}
 .movieinfo a { background-color:#F60018; padding:5px 10px;
@@ -273,7 +275,7 @@ z-index: 1000;
      -webkit-border-radius:5px; }
 .movieinfo a:hover, .movieinfo a:focus { background-color:#F60018; 
     color:#fff; }
-
+    
     .ribbon {
         padding: 0 25px;
         height: 80px;

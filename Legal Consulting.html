@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="css/Legal Consalting.css">
 <link rel="stylesheet" href="css/ef.css">
 <link rel="stylesheet" href="css/menu2.css">
+<link rel="stylesheet" href="css/map.css">
 <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="fontawesome-free/css/font-awesome.min.css">
         <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
@@ -41,7 +42,7 @@ src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"
                   <a href="home.html" class="menu-link signInMobile" style="margin-top: -20px;">London City Associates Ltd</a>
               </li>
              <li class="menu-item"><i class="fa fa-envelope" ><span style="margin-left: 10px;">mail@londoncityassociates.com</span></i></li>
-             <li class="menu-item"><i class="fa fa-phone" style="margin-top: -25px;"><span> +44 75 68 521 593</span></i></li>
+             <li class="menu-item"><i class="fa fa-phone" style="margin-top: -25px;"><span> +44 75 68 521 593, +44 77 38 734 295</span></i></li>
               
                   <li class="menu-item">
                     
@@ -51,7 +52,7 @@ src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"
                       <a href="Accounting Services.html" class="menu-link">Accounting Services</a>
                   </li>
                   <li class="menu-item">
-                      <a href="Legal Consalting.html" class="menu-link">Legal Consalting</a>
+                      <a href="Legal Consulting.html" class="menu-link">Legal Consulting</a>
                   </li>
                   <li class="menu-item">
                       <a href="Contact.html" class="menu-link">Contact US</a>
@@ -63,7 +64,7 @@ src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"
      <div class="navigation">
        
               <div сlass="nav">
-                <p class="text_p">London City Associates Ltd</p>
+                <p class="text_p"></p>
                 <img src="img/logo.jpg" class="img1">
                 <img src="img/logo_on.png" class="img2">
                   
@@ -72,7 +73,7 @@ src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"
                   <ul>
                   <li class="menu"><a href="home.html" >Home</a>
                    <a href="Accounting Services.html">Accounting Services</a> 
-                  <a href="Legal Consalting.html" >Legal Consulting</a> 
+                  <a href="Legal Consulting.html" >Legal Consulting</a> 
                   <a href="Contact.html" >Contact Us</a></li>
                   </ul>
               </div>
@@ -85,14 +86,14 @@ src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"
     <div class="tic">
         <h1 class="ribbon"><p>London City Associates Ltd</p></h1>
         
-        <h1 class="ribbon1" id="ff-proof"><p>Services > Legal Consalting</p></h1>
+        <h1 class="ribbon1" id="ff-proof"><p>Services > Legal Consulting</p></h1>
         </div>
         <div id="wrapper">
             <div class="container">
                 <div class="services">
                     <div id="service-text">
-                    <div>Legal Consulting</div>
-                   <ul class="men" id="men">
+                    <div class="lc"><span>Legal Consulting</span></div>
+                   <ul class="men" >
                        <li>Independent business and legal consultations, aimed at helping you to solve complex issues, related to your business, we also provide legal assistance in business negotiations and deals.</li>
                        <br><li>Wide range of business consultations is aimed at supporting individuals and businesses. We guarantee professional attitude and complete confidentiality.</li>
                    </ul>
@@ -108,7 +109,7 @@ src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"
                             <p></p>
                         </div>
                     </li>
-                    <li>
+                    <li class="employment_contr">
                         <img src="img/Employment Contract.jpg" alt="" />
                         <div class="movieinfo">
                             <h3>Employment Contrats</h3>
@@ -123,8 +124,8 @@ src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"
                         </div>
                     </li>
                 </ul>
-                <ul id="movieposters" class="movie">
-                    <li>
+                <ul id="movieposters" class="movie" style="margin-top: -150px;">
+                    <li class="leg_ass">
                         <img src="img/Legal assistance.jpg" alt="" />
                         <div class="movieinfo">
                             <h3>Legal Assistance with Business Deals
@@ -133,7 +134,7 @@ src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"
                         </div>
                     </li>
                    
-                    <li class="leg_cert">
+                    <li class="leg_cert" style="margin-left: 420px;">
                         <img src="img/Legal translation.jpg" alt="" />
                         <div class="movieinfo">
                             <h3>Legal Certified Translation Interpreting</h3>
@@ -235,6 +236,16 @@ src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"
               });
           });
           </script>
+          <script>
+            function myMap() {
+                var mapOptions = {
+                    center: new google.maps.LatLng(51.5, -0.12),
+                    zoom: 10,
+                    mapTypeId: google.maps.MapTypeId.HYBRID
+                }
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            }
+            </script>
           <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js'></script>
