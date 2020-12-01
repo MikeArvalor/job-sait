@@ -239,7 +239,7 @@ left: calc(50% - 600px);
 @media screen and (max-width: 1370px){
   .nav2{ margin-left: 10px; margin-top: -22px;}
   .nav3 p{ margin-left: -130px;}
-  .img2{ width: 50% !important;
+  .img2{ width: 55% !important;
   height: 30% !important;
 ;}
 }
