@@ -125,11 +125,25 @@
       color: #FFB300;
       margin-left: -15px;
     }
-    @media screen and (max-width:1500px){
+    @media screen and (max-width:1960px){ .img2{
+      height: 30% !important;
+      width: 50% !important;
+    }
+    .nav2{
+      margin-top: -22px;
+    }
+    .container{ margin-left: 200px;}
+    .lc{margin-left: -340px;}
+    .leg_cert{margin-top: 10px;}
+    .top_footer{margin-top: -100px;}
+    .map{width: 40%; margin-left: 800px;}
+  }
+    @media screen and (max-width:1700px){
       .img2{
         margin-left: 40px;
-      width: 18.5%;
-      height: 7.8% !important;
+     
+      width: 49.5% !important;
+      height: 38% !important;
           }
          .leg_cert{
            margin-top: 10px;
@@ -140,6 +154,7 @@
         }
         .nav2{
           margin-left: 60px;
+          margin-top: -22px;
         }
      .top_footer{
        margin-top: -100px;
@@ -168,7 +183,7 @@
               margin-left: 700px;
           }
     }
-    @media screen and (max-width:1400px){}
+    @media screen and (max-width:1460px){}
     .img1{
       left: -5px;
     }
@@ -183,6 +198,8 @@
       font-size: 18px;
       
       }
+      .container{margin-left: -1px ;}
+      .lc{margin-left: 50px;}
       #men{
         margin-left: 330px;
       }
@@ -207,6 +224,7 @@
       .nav{
         grid-template-columns: 1fr;
       }
+      .container{ margin-left: -50px;}
       .img1{
         left: -20px;
       }
@@ -222,7 +240,7 @@
         .nav2{
           max-width: 90%;
     left:-85px;
-    left: calc(50% - 600px);
+    left: calc(50% - 670px);
     
           }
           .nav3 {
@@ -231,23 +249,37 @@
             left: calc(50% - 520px);
             }
       .men{margin-left: 130px;}
-      .leg_cert{
-        margin-top: -290px;
-      }
+ .leg_ass{ margin-left: 250px !important;}
+ .leg_cert{ margin-left: 10px !important;}
+ .movie{margin-top: -180px !important; }
+      
+     
+      
     }
     @media screen and (max-width: 1370px){
       .nav2{ margin-left: 10px;}
       .nav3 p{ margin-left: -130px;}
       .men{margin-left: 300px;}
     }
-    @media screen and (max-width: 1200px){
+    @media screen and (max-width: 1260px){
+      
       .img1{
         left: -30px;
+        margin-top: 15px;
         width: 20%;
       }
+      #employment{
+        margin-top: 220px;
+      }
+    
+      .container{margin-left: 50px;}
+      .leg_ass{ margin-left: -1px !important;}
+      .leg_cert{ margin-left: 250px !important; margin-top: 200px;}
+      .movie{margin-top: -180px !important; }
       .top_footer{
         margin-top: 300px;
       }
+      .lc{margin-left: -120px;}
       .img2{
     margin-left: -19px;
     width: 16%;
@@ -267,7 +299,7 @@
         }
         .nav2{
           max-width: 90%;
-      
+      margin-top: -18px;
           font-size:15.5px;
           
                 left: calc(50% - 755px);
@@ -304,7 +336,11 @@
     }
     #movieposters{margin-left: 45px;}
     }
-      @media screen and (max-width: 1000px){
+    @media screen and (max-width: 1180px){
+      .leg_ass{ margin-left: -1px !important;}
+      .leg_cert{ margin-left: 450px !important; margin-top: -290px;}
+    }
+      @media screen and (max-width: 1080px){
          
           .navigation{
     
@@ -315,23 +351,22 @@
          .form{
            margin-left: 20px;
          }
-          .burger-link{
-            margin-top: 30px;
-          }
+        
     .tic{
       margin-top: -100px;
     }
     .ribbon1{
       margin-left: 280px;
     }
-    
+    .container{margin-left: -10px;}
+    .lc{margin-left:-50px;}
       }
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 840px){
       .ribbon1{
         width: 40%;
         margin-left: 100px;
       }
-      
+      .lc{margin-left: 1px;}
       .burger-link span{
         color: #fff;
       }
@@ -365,7 +400,7 @@
       }
      #employment{
          margin-top: 180px;
-         margin-left: 340px;
+         margin-left: 380px;
         
      }
   

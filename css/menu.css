@@ -130,6 +130,10 @@ background:transparent;
   color: #FFB300;
   margin-left: -15px;
 }
+@media screen and (max-width:1960px){
+ .form{margin-left: 500px; margin-top: 150px;}
+ 
+}
 @media screen and (max-width:1550px){
 
  
@@ -168,15 +172,15 @@ background:transparent;
           }
      
 }
-@media screen and (max-width:1400px){}
+@media screen and (max-width:1600px){}
 .img1{
   left: -5px;
 }
 
 .img2{
-margin-left: 30px;
-width: 16%;
-height: 9%;
+margin-left: 10px;
+width: 56% !important;
+height: 49% !important;
 }
 .text_p{
   max-width: 100%;
@@ -199,6 +203,7 @@ height: 9%;
   .nav2{
     max-width: 90%;
 left:-95px;
+margin-top: -22px;
 left: calc(50% - 620px);
 
     }
@@ -232,18 +237,22 @@ left: calc(50% - 600px);
   
 }
 @media screen and (max-width: 1370px){
-  .nav2{ margin-left: 10px;}
+  .nav2{ margin-left: 10px; margin-top: -22px;}
   .nav3 p{ margin-left: -130px;}
+  .img2{ width: 50% !important;
+  height: 30% !important;
+;}
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1250px){
   .img1{
-    left: -30px;
+    margin-top: -5px;
+    left: -26px;
     width: 20%;
   }
   .img2{
-margin-left: -19px;
-width: 17.4%;
-height: 9.2%;
+margin-left: -14px;
+width: 45% !important;
+height: 49.2% !important;
   }
   .text_p{
     max-width: 65%;
@@ -258,10 +267,10 @@ height: 9.2%;
     }
     .nav2{
       max-width: 90%;
-  
+  margin-top: -25px;
       font-size:15.5px;
       
-            left: calc(50% - 755px);
+            left: calc(50% - 655px);
       
       }
       .nav2 a{
@@ -270,10 +279,11 @@ height: 9.2%;
       .nav3 {
         max-width: 85%;
         font-size:14px;
-        margin-left:-140px;
+        margin-left:-100px;
         left: calc(50% - 706px);
         margin-bottom: 45px;
       }
+      .nav3 p{margin-left: -10px;}
       .tic h1{
         font-size: 28px;
       }
@@ -311,7 +321,7 @@ width: 0.1%;
      
 
   }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 868px){
   .ribbon1{
     width: 40%;
     margin-left: 100px;
@@ -333,7 +343,7 @@ width: 0.1%;
   }
  
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   
   .ribbon{height: 40px; margin-top: 30px; }
   .tic p{
