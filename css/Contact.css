@@ -137,7 +137,11 @@ margin-top: 70px;
 }
 
     
-
+.info,
+.text{
+  font-weight: 700;
+  color: #000;
+}
 .footer span{ 
     margin-left: 107px;
 }
@@ -335,8 +339,7 @@ margin-top: 70px;
             position: relative;
             line-height: 55px;
             font-size: 18px;
-            color: #a5a5a5;
-            transition: .5s;
+              transition: .5s;
            }
            .focus .labelText {
             transform: translateY(-20px);
@@ -563,13 +566,13 @@ margin-top: 70px;
           }
           
           .text {
-            color: #333;
+            
             margin: 1.5rem 0 2rem 0;
           }
           
           .information {
             display: flex;
-            color: #555;
+      
             margin: 0.7rem 0;
             align-items: center;
             font-size: 0.95rem;
@@ -705,8 +708,9 @@ margin-top: 70px;
             .information,
             .social-media p {
               font-size: 0.8rem;
+              font-weight: bold;
             }
-          
+         
             .title {
               font-size: 1.15rem;
             }
