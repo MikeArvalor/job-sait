@@ -1,36 +1,36 @@
-#company-map {
-	position: relative;
-	border: solid 1px #ccc;
-	width: 100%;
-	height: 450px;
-	overflow: hidden;
-}
-#map {
-	position: absolute;
-	width: 100%;
-	height:600px;
-	border:solid 1px #ccc;
-	z-index: 1;
-}
-#pano {
-	position: absolute;
-	width: 100%;
-	height: 600px;
-	z-index: 0;
-}
-.btnMap {
- 	position: absolute;
- 	margin-top: 10px;
- 	left: 50%;
- 	margin-left: -75px;
- 	background-color: rgba(0, 0, 0, 0.5);
- 	border: 1px solid #999;
- 	text-align: center;
- 	line-height: 25px;
- 	padding: 5px;
- 	z-index: 5;
- 	cursor: pointer;
-}
-#btnPanel {
-	width:150px;
+#company-map {
+	position: relative;
+	border: solid 1px #ccc;
+	width: 100%;
+	height: 450px;
+	overflow: hidden;
+}
+#map {
+	position: absolute;
+	width: 100%;
+	height:600px;
+	border:solid 1px #ccc;
+	z-index: 1;
+}
+#pano {
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	z-index: 0;
+}
+.btnMap {
+ 	position: absolute;
+ 	margin-top: 10px;
+ 	left: 50%;
+ 	margin-left: -75px;
+ 	background-color: rgba(0, 0, 0, 0.5);
+ 	border: 1px solid #999;
+ 	text-align: center;
+ 	line-height: 25px;
+ 	padding: 5px;
+ 	z-index: 5;
+ 	cursor: pointer;
+}
+#btnPanel {
+	width:150px;
 }

@@ -1,598 +1,608 @@
-
-.nav-menu{
-    width: 20%;
-    
-    }
-    
-    .nav-item{
-    padding:0 10px;
-    }
-    .nav-link{
-      text-decoration: none;
-      color: #e01533;
-      font-size:16px;
-      border-bottom: 2px solid transparent;
-      transition: .3s;
-      font-weight: bold;
-    }
-    .nav-link:hover{
-      border-bottom: 2px solid #e01533;
-    
-    }
-    
-    @keyframes place{
-      0%{
-          margin-top: -5px;
-      }
-      50%{
-          margin-top: 5px;
-      }
-      100%{
-          margin-top: -5px;
-      }
-    
-    }
-    .burger-link{
-      display: none;
-      position: relative;
-      top: 40%;
-     left: 1%;
-      height: 40px;
-      width: 40px;
-      border-radius: 50%;
-    
-      background: #fff;
-      z-index: 100;
-    
-    }
-    .burger-link span, .burger-link span:before, .burger-link span:after{
-      display: block;
-      height: 2px;
-      width: 18px;
-      background-color: #000;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-left: -9px;
-      margin-top: 0;
-    }
-    .burger-link span:before{
-    transition: all .3s;
-    margin-top: -6px;
-    content: '';    
-    }
-    .burger-link span::after{
-      transition: all .3s;
-      margin-top: 4px;
-      content: '';    
-    }
-    .burger-link_active span:before{
-     transform: rotate(45deg);
-     margin-top: 0;
-    }
-    .burger-link_active span:after{
-      transform: rotate(-45deg);
-      margin-top: 0;
-    }
-    .burger-link_active span{
-    background:transparent;
-    }
-    
-    .mobile-nav{
-       position: absolute;
-       display: flex;
-       justify-content: left;
-       align-items: left;
-       width: 24%;
-       height: 120vh;
-       margin-top: -60px;
-       background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../img/photo2.jpg);
-       transition: .5s;
-       z-index: 99;
-       left: -100%;
-    }
-    .nav-active{
-       left: 0;
-    }
-    .mobile-menu{
-       list-style: none;
-       text-align: center;
-       margin-top: 70px;
-    }
-    .menu-item{
-       display: flex;
-       justify-content: left;
-       align-items: left;
-       margin: 30px;
-       
-    
-    }
-    
-    .menu-link{
-       color: #fff;
-       font-size: 18px;
-       letter-spacing: 1px;
-      text-decoration: none;
-      z-index: 1;
-      margin-left: -15px;
-    }
-    .menu-item span{
-      color: #FFB300;
-      margin-left: 5px;
-      
-    }
-    .menu-item i{
-      color: #FFB300;
-      margin-left: -15px;
-    }
-    @media screen and (max-width:1960px){ .img2{
-      height: 30% !important;
-      width: 50% !important;
-    }
-    .nav2{
-      margin-top: -22px;
-    }
-    .container{ margin-left: 200px;}
-    .lc{margin-left: -340px;}
-    .leg_cert{margin-top: 10px;}
-    .top_footer{margin-top: -100px;}
-    .map{width: 40%; margin-left: 800px;}
-  }
-    @media screen and (max-width:1700px){
-      .img2{
-        margin-left: 40px;
-     
-      width: 49.5% !important;
-      height: 38% !important;
-          }
-         .leg_cert{
-           margin-top: 10px;
-         }
-        .nav3{
-          width: 100%;
-          margin-left: 40px;
-        }
-        .nav2{
-          margin-left: 60px;
-          margin-top: -22px;
-        }
-     .top_footer{
-       margin-top: -100px;
-     }
-        .nav3 p{
-          margin-right: 110px;
-        }
-        
-        .text_p{
-          width: 100%;
-          margin-left: 105px;
-          font-size: 22px;
-          
-          }
-          .form{
-            margin-left: 280px;
-          }
-          .footer span{
-            margin-left: 100px;
-          }
-          .men{
-            margin-left: 350px;  
-          }
-          .map{
-              width: 40%;
-              margin-left: 700px;
-          }
-    }
-    @media screen and (max-width:1460px){}
-    .img1{
-      left: -5px;
-    }
-    .img2{
-    margin-left: 30px;
-    width: 46%;
-    height: 39% !important;
-    }
-    .text_p{
-      max-width: 100%;
-      margin-left: 70px;
-      font-size: 18px;
-      
-      }
-      .container{margin-left: -1px ;}
-      .lc{margin-left: 50px;}
-      #men{
-        margin-left: 330px;
-      }
-     
-      .nav3 {
-        max-width: 100%;
-        margin-left:-38px;
-        left: calc(50% -820px);
-        }
-        .nav3 p{
-          margin-left: -35px;
-        }
-      .nav2{
-        max-width: 90%;
-    left:-95px;
-    left: calc(50% - 620px);
-    
-    
-        }
-        
-    @media screen and (max-width:1300px){
-      .nav{
-        grid-template-columns: 1fr;
-      }
-      .container{ margin-left: -50px;}
-      .img1{
-        left: -20px;
-      }
-      .img2{
-    margin-left: -5px;
-      }
-      .text_p{
-        max-width: 65%;
-        margin-left: 105px;
-        font-size: 18px;
-        
-        }
-        .nav2{
-          max-width: 90%;
-    left:-85px;
-    left: calc(50% - 670px);
-    
-          }
-          .nav3 {
-            max-width: 95%;
-            margin-left:-63px;
-            left: calc(50% - 520px);
-            }
-      .men{margin-left: 130px;}
- .leg_ass{ margin-left: 250px !important;}
- .leg_cert{ margin-left: 10px !important;}
- .movie{margin-top: -180px !important; }
-      
-     
-      
-    }
-    @media screen and (max-width: 1370px){
-      .nav2{ margin-left: 10px;}
-      .nav3 p{ margin-left: -130px;}
-      .men{margin-left: 300px;}
-    }
-    @media screen and (max-width: 1260px){
-      
-      .img1{
-        left: -30px;
-        margin-top: 15px;
-        width: 20%;
-      }
-      #employment{
-        margin-top: 220px;
-      }
-    
-      .container{margin-left: 50px;}
-      .leg_ass{ margin-left: -1px !important;}
-      .leg_cert{ margin-left: 250px !important; margin-top: 200px;}
-      .movie{margin-top: -180px !important; }
-      .top_footer{
-        margin-top: 300px;
-      }
-      .lc{margin-left: -120px;}
-      .img2{
-    margin-left: -19px;
-    width: 16%;
-    height: 8.5%;
-      }
-      .text_p{
-        max-width: 65%;
-        margin-left: 55px;
-        font-size: 15px;
-        
-        }
-        
-      .nav{
-        max-width: 80%;
-        font-size: 16px;
-        
-        }
-        .nav2{
-          max-width: 90%;
-      margin-top: -18px;
-          font-size:15.5px;
-          
-                left: calc(50% - 755px);
-          
-          }
-          .nav2 a{
-            margin-left: 73px;
-          }
-          .nav3 {
-            max-width: 85%;
-            font-size:14px;
-            margin-left:-140px;
-            left: calc(50% - 706px);
-            margin-bottom: 45px;
-          }
-          .tic h1{
-            font-size: 28px;
-          }
-    
-     .nav3 i{
-       margin-left: -50px;
-     }
-     .nav3 p{
-       margin-right: 150px;
-     }
-     .form{
-      margin-left: 70px;
-    }
-    .men{
-        margin-left: 130px;
-    }
-    .map{
-      width: 30%;
-    }
-    #movieposters{margin-left: 45px;}
-    }
-    @media screen and (max-width: 1180px){
-      .leg_ass{ margin-left: -1px !important;}
-      .leg_cert{ margin-left: 450px !important; margin-top: -290px;}
-    }
-      @media screen and (max-width: 1080px){
-         
-          .navigation{
-    
-    margin-top: -300px;
-    font-size: 0.1px;
-    width: 0.1%;
-          }
-         .form{
-           margin-left: 20px;
-         }
-        
-    .tic{
-      margin-top: -100px;
-    }
-    .ribbon1{
-      margin-left: 280px;
-    }
-    .container{margin-left: -10px;}
-    .lc{margin-left:-50px;}
-      }
-    @media screen and (max-width: 840px){
-      .ribbon1{
-        width: 40%;
-        margin-left: 100px;
-      }
-      .lc{margin-left: 1px;}
-      .burger-link span{
-        color: #fff;
-      }
-      .burger-link{
-        display: block;
-      }
-      .footer{
-        margin-left: -80px;
-      }
-      .men{
-        margin-left: 15px;
-      }
-      
-      .leg_cert{
-        margin-top: 500px;
-        margin-left: -150px !important;
-
-      }
-      #movieposters{
-        display: grid;
-        grid-template-columns: 350px 350px;
-    
-        grid-auto-rows: 10px;
-        grid-auto-rows: minmax(10px, auto);
-        grid-column-gap: 10px;
-        grid-row-gap: 5em; 
-   margin-left: -80px;
-      }
-      .top_footer{
-          margin-top: 450px;
-      }
-     #employment{
-         margin-top: 180px;
-         margin-left: 380px;
-        
-     }
-  
-     .foot{
-         margin-left: 35px;
-     }
-     .contact-info{
-         margin-left: -80px;
-         font-size: 13px;
-     }
-     .map{
-         width: 35%;
-         margin-left: 450px;
-     }
-    }
-    @media screen and (max-width: 500px) {
-        
-      
-      .ribbon{height: 40px; margin-top: 30px; }
-      .tic p{
-        margin-top: -20px;
-      }
-      .tic h1{
-       font-size: 22px;
-      margin-bottom: -15px;
-      }
-      
-      .ribbon1{height: 40px;right: 100px; width: 65%;
-      }
-      .top_footer{
-          margin-top: 1500px;
-      }
-     .footer{
-       font-size: 12px;
-       margin-left: -90px;
-     }
-     .men{
-       margin-top: 20px;
-         width: 90%;
-         margin-left: 15px;
-     }
-     .leg_ass{
-       margin-top: 550px;
-     }
-    
-     #movieposters{
-        display: grid;
-        
-        grid-template-columns: 100px;
-        grid-auto-rows: 10px;
-        grid-auto-rows: minmax(10px, auto);
-        grid-column-gap: 10px;
-        grid-row-gap: 35em; 
-   margin-left: -50px;
-      }
-      #employment{
-          margin-top: 1080px;
-          margin-left: 10px;
-      }
-      .map{
-          margin-left: 40px;
-          width: 80%;
-          margin-top: 12px;
-      }
-     .leg_cert{margin-top: 510px; margin-left: 1px !important;}
-    }
-    @media screen and (max-width: 380px) {
-      .ribbon{height: 40px; margin-top: 30px; }
-      .tic{width: 116%;}
-      .tic p{
-        margin-top: -20px;
-      }
-      .tic h1{
-       font-size: 22px;
-      margin-bottom: -15px;
-      }
-      
-      .ribbon1{height: 40px;right: 100px; width: 65%;
-      }
-      .top_footer{
-          margin-top: 1500px;
-          width: 116%;
-      }
-     .footer{
-       font-size: 12px;
-       margin-left: -90px;
-       width: 140%;
-     }
-     .men{
-       margin-top: 20px;
-         width: 100%;
-         margin-left: 35px;
-     }
-     .lc span{
-       margin-left: 70px;
-       width: 100%;
-       font-size: 50px;
-     }
-     .leg_ass{
-       margin-top: 550px;
-     }
-    
-     #movieposters{
-        display: grid;
-        
-        grid-template-columns: 100px;
-        grid-auto-rows: 10px;
-        grid-auto-rows: minmax(10px, auto);
-        grid-column-gap: 10px;
-        grid-row-gap: 35em; 
-   margin-left: -50px;
-      }
-      #employment{
-          margin-top: 1080px;
-          margin-left: 10px;
-      }
-      .map{
-          margin-left: 40px;
-          width: 80%;
-          margin-top: 12px;
-      }
-     .leg_cert{margin-top: 510px; margin-left: 1px !important;}
-
-
-    }
-    @media screen and (max-width: 330px) {
-      .ribbon{height: 40px; margin-top: 30px; }
-      .tic{width: 136%;}
-      .tic p{
-        margin-top: -20px;
-      }
-      .tic h1{
-       font-size: 22px;
-      margin-bottom: -15px;
-      }
-      
-      .ribbon1{height: 40px;right: 100px; width: 65%;
-      }
-      .top_footer{
-          margin-top: 1500px;
-          width: 136%;
-      }
-     .footer{
-       font-size: 12px;
-       margin-left: -90px;
-       width: 164.5%;
-     }
-     .men{
-       margin-top: 20px;
-         width: 100%;
-         margin-left: 45px;
-     }
-     .lc span{
-       margin-left: 90px;
-      font-size: 40px;
-     }
-     .leg_ass{
-       margin-top: 550px;
-     }
-    
-     #movieposters{
-        display: grid;
-        
-        grid-template-columns: 100px;
-        grid-auto-rows: 10px;
-        grid-auto-rows: minmax(10px, auto);
-        grid-column-gap: 10px;
-        grid-row-gap: 35em; 
-   margin-left: -50px;
-      }
-      #employment{
-          margin-top: 1080px;
-          margin-left: 10px;
-      }
-      .map{
-          margin-left: 40px;
-          width: 80%;
-          margin-top: 12px;
-      }
-     .leg_cert{margin-top: 510px; margin-left: 1px !important;}
-    }
-    @media screen and(max-height: 650px ){
-      
-    }
-    @media screen and (max-height: 500px) and (max-width: 1000px){
-    
-      .main-information{
-          top: 70%;
-      }
-      .social{
-          top: 180%;
-      }
-    }
-    
+
+.nav-menu{
+    width: 20%;
+    
+    }
+    
+    .nav-item{
+    padding:0 10px;
+    }
+    .nav-link{
+      text-decoration: none;
+      color: #e01533;
+      font-size:16px;
+      border-bottom: 2px solid transparent;
+      transition: .3s;
+      font-weight: bold;
+    }
+    .nav-link:hover{
+      border-bottom: 2px solid #e01533;
+    
+    }
+    
+    @keyframes place{
+      0%{
+          margin-top: -5px;
+      }
+      50%{
+          margin-top: 5px;
+      }
+      100%{
+          margin-top: -5px;
+      }
+    
+    }
+    .burger-link{
+      display: none;
+      position: relative;
+      top: 40%;
+     left: 1%;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+    
+      background: #fff;
+      z-index: 100;
+    
+    }
+    .burger-link span, .burger-link span:before, .burger-link span:after{
+      display: block;
+      height: 2px;
+      width: 18px;
+      background-color: #000;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -9px;
+      margin-top: 0;
+    }
+    .burger-link span:before{
+    transition: all .3s;
+    margin-top: -6px;
+    content: '';    
+    }
+    .burger-link span::after{
+      transition: all .3s;
+      margin-top: 4px;
+      content: '';    
+    }
+    .burger-link_active span:before{
+     transform: rotate(45deg);
+     margin-top: 0;
+    }
+    .burger-link_active span:after{
+      transform: rotate(-45deg);
+      margin-top: 0;
+    }
+    .burger-link_active span{
+    background:transparent;
+    }
+    
+    .mobile-nav{
+       position: absolute;
+       display: flex;
+       justify-content: left;
+       align-items: left;
+       width: 24%;
+       height: 120vh;
+       margin-top: -60px;
+       background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../img/photo2.jpg);
+       transition: .5s;
+       z-index: 99;
+       left: -100%;
+    }
+    .nav-active{
+       left: 0;
+    }
+    .mobile-menu{
+       list-style: none;
+       text-align: center;
+       margin-top: 70px;
+    }
+    .menu-item{
+       display: flex;
+       justify-content: left;
+       align-items: left;
+       margin: 30px;
+       
+    
+    }
+    
+    .menu-link{
+       color: #fff;
+       font-size: 18px;
+       letter-spacing: 1px;
+      text-decoration: none;
+      z-index: 1;
+      margin-left: -15px;
+    }
+    .menu-item span{
+      color: #FFB300;
+      margin-left: 5px;
+      
+    }
+    .menu-item i{
+      color: #FFB300;
+      margin-left: -15px;
+    }
+    @media screen and (max-width:1960px){ .img2{
+      height: 30% !important;
+      width: 50% !important;
+    }
+    .nav2{
+      margin-top: -22px;
+    }
+    .container{ margin-left: 200px;}
+    .lc{margin-left: -340px;}
+    .leg_cert{margin-top: 10px;}
+    .top_footer{margin-top: -100px;}
+    .map{width: 40%; margin-left: 800px;}
+  }
+    @media screen and (max-width:1700px){
+      .img2{
+        margin-left: 40px;
+     
+      width: 49.5% !important;
+      height: 38% !important;
+          }
+         .leg_cert{
+           margin-top: 10px;
+         }
+        .nav3{
+          width: 100%;
+          margin-left: 40px;
+        }
+        .nav2{
+          margin-left: 60px;
+          margin-top: -22px;
+        }
+     .top_footer{
+       margin-top: -100px;
+     }
+        .nav3 p{
+          margin-right: 110px;
+        }
+        
+        .text_p{
+          width: 100%;
+          margin-left: 105px;
+          font-size: 22px;
+          
+          }
+          .form{
+            margin-left: 280px;
+          }
+          .footer span{
+            margin-left: 100px;
+          }
+          .men{
+            margin-left: 350px;  
+          }
+          .map{
+              width: 40%;
+              margin-left: 700px;
+          }
+    }
+    @media screen and (max-width:1460px){}
+    .img1{
+      left: -5px;
+    }
+    .img2{
+    margin-left: 30px;
+    width: 46%;
+    height: 39% !important;
+    }
+    .text_p{
+      max-width: 100%;
+      margin-left: 70px;
+      font-size: 18px;
+      
+      }
+      .container{margin-left: -1px ;}
+      .lc{margin-left: 50px;}
+      #men{
+        margin-left: 330px;
+      }
+     
+      .nav3 {
+        max-width: 100%;
+        margin-left:-38px;
+        left: calc(50% -820px);
+        }
+        .nav3 p{
+          margin-left: -35px;
+        }
+      .nav2{
+        max-width: 90%;
+    left:-95px;
+    left: calc(50% - 620px);
+    
+    
+        }
+        
+    @media screen and (max-width:1300px){
+      .nav{
+        grid-template-columns: 1fr;
+      }
+      .container{ margin-left: -50px;}
+      .img1{
+        left: -20px;
+      }
+      .img2{
+    margin-left: -5px;
+      }
+      .text_p{
+        max-width: 65%;
+        margin-left: 105px;
+        font-size: 18px;
+        
+        }
+        .nav2{
+          max-width: 90%;
+    left:-85px;
+    left: calc(50% - 670px);
+    
+          }
+          .nav3 {
+            max-width: 95%;
+            margin-left:-63px;
+            left: calc(50% - 520px);
+            }
+      .men{margin-left: 130px;}
+ .leg_ass{ margin-left: 250px !important;}
+ .leg_cert{ margin-left: 10px !important;}
+ .movie{margin-top: -180px !important; }
+      
+     
+      
+    }
+    @media screen and (max-width: 1370px){
+      .nav2{ margin-left: 10px;}
+      .nav3 p{ margin-left: -130px;}
+      .men{margin-left: 300px;}
+    }
+    @media screen and (max-width: 1260px){
+      
+      .img1{
+        left: -30px;
+        margin-top: 15px;
+        width: 20%;
+      }
+      #employment{
+        margin-top: 220px;
+      }
+    
+      .container{margin-left: 50px;}
+      .leg_ass{ margin-left: -1px !important;}
+      .leg_cert{ margin-left: 250px !important; margin-top: 200px;}
+      .movie{margin-top: -180px !important; }
+      .top_footer{
+        margin-top: 300px;
+      }
+      .lc{margin-left: -120px;}
+      .img2{
+    margin-left: -19px;
+    width: 16%;
+    height: 8.5%;
+      }
+      .text_p{
+        max-width: 65%;
+        margin-left: 55px;
+        font-size: 15px;
+        
+        }
+        
+      .nav{
+        max-width: 80%;
+        font-size: 16px;
+        
+        }
+        .nav2{
+          max-width: 90%;
+      margin-top: -18px;
+          font-size:15.5px;
+          
+                left: calc(50% - 755px);
+          
+          }
+          .nav2 a{
+            margin-left: 73px;
+          }
+          .nav3 {
+            max-width: 85%;
+            font-size:14px;
+            margin-left:-140px;
+            left: calc(50% - 706px);
+            margin-bottom: 45px;
+          }
+          .tic h1{
+            font-size: 28px;
+          }
+    
+     .nav3 i{
+       margin-left: -50px;
+     }
+     .nav3 p{
+       margin-right: 150px;
+     }
+     .form{
+      margin-left: 70px;
+    }
+    .men{
+        margin-left: 130px;
+    }
+    .map{
+      width: 30%;
+    }
+    #movieposters{margin-left: 45px;}
+    }
+    @media screen and (max-width: 1180px){
+      .leg_ass{ margin-left: -1px !important;}
+      .leg_cert{ margin-left: 450px !important; margin-top: -290px;}
+    }
+      @media screen and (max-width: 1080px){
+         
+          .navigation{
+    
+    margin-top: -300px;
+    font-size: 0.1px;
+    width: 0.1%;
+          }
+          
+          .burger-link span{
+        color: #fff;
+      }
+      .burger-link{
+          margin-top:40px;
+        display: block;
+      }
+         .form{
+           margin-left: 20px;
+         }
+        
+    .tic{
+      margin-top: -100px;
+    }
+    .ribbon1{
+      margin-left: 280px;
+    }
+    .container{margin-left: -10px;}
+    .lc{margin-left:-50px;}
+      }
+    @media screen and (max-width: 900px){
+      .ribbon1{
+        width: 40%;
+        margin-left: 100px;
+      }
+      .lc{margin-left: 1px;}
+      .burger-link span{
+        color: #fff;
+      }
+      .burger-link{
+          margin-top:20px;
+        display: block;
+      }
+      .footer{
+        margin-left: -80px;
+      }
+      .men{
+        margin-left: 15px;
+      }
+      
+      .leg_cert{
+        margin-top: 500px;
+        margin-left: -150px !important;
+
+      }
+      #movieposters{
+        display: grid;
+        grid-template-columns: 350px 350px;
+    
+        grid-auto-rows: 10px;
+        grid-auto-rows: minmax(10px, auto);
+        grid-column-gap: 10px;
+        grid-row-gap: 5em; 
+   margin-left: -80px;
+      }
+      .top_footer{
+          margin-top: 450px;
+      }
+     #employment{
+         margin-top: 180px;
+         margin-left: 380px;
+        
+     }
+  
+     .foot{
+         margin-left: 35px;
+     }
+     .contact-info{
+         margin-left: -80px;
+         font-size: 13px;
+     }
+     .map{
+         width: 35%;
+         margin-left: 450px;
+     }
+    }
+    @media screen and (max-width: 500px) {
+        
+      
+      .ribbon{height: 40px; margin-top: 30px; }
+     
+      .tic p{
+        margin-top: -20px;
+      }
+      .tic h1{
+       font-size: 22px;
+      margin-bottom: -15px;
+      }
+      
+      .ribbon1{height: 40px;right: 100px; width: 65%;
+      }
+      .top_footer{
+          margin-top: 1500px;
+      }
+     .footer{
+       font-size: 12px;
+       margin-left: -90px;
+     }
+     .men{
+       margin-top: 20px;
+         width: 90%;
+         margin-left: 15px;
+     }
+     .leg_ass{
+       margin-top: 550px;
+     }
+    
+     #movieposters{
+        display: grid;
+        
+        grid-template-columns: 100px;
+        grid-auto-rows: 10px;
+        grid-auto-rows: minmax(10px, auto);
+        grid-column-gap: 10px;
+        grid-row-gap: 35em; 
+   margin-left: -50px;
+      }
+      #employment{
+          margin-top: 1080px;
+          margin-left: 10px;
+      }
+      .map{
+          margin-left: 40px;
+          width: 80%;
+          margin-top: 12px;
+      }
+     .leg_cert{margin-top: 510px; margin-left: 1px !important;}
+    }
+    @media screen and (max-width: 425px) {
+      .ribbon{height: 40px; margin-top: 30px; }
+      .tic{width: 118%;}
+      .tic p{
+        margin-top: -20px;
+      }
+      .tic h1{
+       font-size: 22px;
+      margin-bottom: -15px;
+      }
+      
+      .ribbon1{height: 40px;right: 100px; width: 65%;
+      }
+      .top_footer{
+          margin-top: 1500px;
+          width: 119%;
+      }
+     .footer{
+       font-size: 12px;
+       margin-left: -100px;
+       width: 140%;
+     }
+     .men{
+       margin-top: 20px;
+         width: 100%;
+         margin-left: 35px;
+     }
+     .lc span{
+       margin-left: 70px;
+       width: 100%;
+       font-size: 50px;
+     }
+     .leg_ass{
+       margin-top: 550px;
+     }
+    
+     #movieposters{
+        display: grid;
+        
+        grid-template-columns: 100px;
+        grid-auto-rows: 10px;
+        grid-auto-rows: minmax(10px, auto);
+        grid-column-gap: 10px;
+        grid-row-gap: 35em; 
+   margin-left: -50px;
+      }
+      #employment{
+          margin-top: 1080px;
+          margin-left: 10px;
+      }
+      .map{
+          margin-left: 40px;
+          width: 80%;
+          margin-top: 12px;
+      }
+     .leg_cert{margin-top: 510px; margin-left: 1px !important;}
+
+
+    }
+    @media screen and (max-width: 330px) {
+      .ribbon{height: 40px; margin-top: 30px; }
+      .tic{width: 136%;}
+      .tic p{
+        margin-top: -20px;
+      }
+      .tic h1{
+       font-size: 22px;
+      margin-bottom: -15px;
+      }
+      
+      .ribbon1{height: 40px;right: 100px; width: 65%;
+      }
+      .top_footer{
+          margin-top: 1500px;
+          width: 136%;
+      }
+     .footer{
+       font-size: 12px;
+       margin-left: -90px;
+       width: 164.5%;
+     }
+     .men{
+       margin-top: 20px;
+         width: 100%;
+         margin-left: 45px;
+     }
+     .lc span{
+       margin-left: 90px;
+      font-size: 40px;
+     }
+     .leg_ass{
+       margin-top: 550px;
+     }
+    
+     #movieposters{
+        display: grid;
+        
+        grid-template-columns: 100px;
+        grid-auto-rows: 10px;
+        grid-auto-rows: minmax(10px, auto);
+        grid-column-gap: 10px;
+        grid-row-gap: 35em; 
+   margin-left: -50px;
+      }
+      #employment{
+          margin-top: 1080px;
+          margin-left: 10px;
+      }
+      .map{
+          margin-left: 40px;
+          width: 80%;
+          margin-top: 12px;
+      }
+     .leg_cert{margin-top: 510px; margin-left: 1px !important;}
+    }
+    @media screen and(max-height: 650px ){
+      
+    }
+    @media screen and (max-height: 500px) and (max-width: 1000px){
+    
+      .main-information{
+          top: 70%;
+      }
+      .social{
+          top: 180%;
+      }
+    }
+    
      

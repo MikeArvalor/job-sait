@@ -819,12 +819,14 @@ background-size: cover;
     @media screen and (max-width: 540px) {
         .prog1{width: 150%;
         margin-left: -50px;}
+        .prog2{width:110px; margin-left:5px;}
+        .prog3{width:140px; margin-left:5px !important;}
         .fon{
           margin-top: -100px;
           width: 119.3%;
         }
-       
-        .fon a{ font-size: 12px; margin-left: 210px;}
+       .fon p{margin-left:150px;}
+        .fon a{ font-size: 12px; margin-left: -100px;}
         .slider{
           width: 109%;
         }
@@ -1008,7 +1010,7 @@ background-size: cover;
     #container{margin-top: 10px; margin-left: 270px;}
     }
   
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 425px) {
       .prog1{width: 210%;
         margin-left: -70px;}
         .prog3{
@@ -1022,11 +1024,11 @@ background-size: cover;
           margin-left: 120px;
         }
         
-        .fon a{ font-size: 14px; margin-left: 210px;}
+        .fon a{ font-size: 14px; margin-left: -90px;}
         .slider{
           width: 114.5%;
         }
-        .footer{width: 149%;}
+        .footer{width: 151%;}
         .top_footer{width: 105%;}
         .programs{
           margin-left: 200px;
@@ -1206,17 +1208,21 @@ background-size: cover;
     @media screen and (max-width: 330px) {
       .prog1{width: 300px;
         margin-left: -70px;}
+        .prog2{width: 100px;
+          margin-left: 15px;
+       }
         .prog3{
-          margin-left: -35px;
+        margin-left: 15px;
+          width: 100px;
         }
         .fon{
           margin-top: -100px;
           width: 157%;
         }
         .fon p{
-          margin-left: 120px;
+          margin-left: 150px;
         }
-        .fon a{ font-size: 14px; margin-left: 210px;}
+        .fon a{ font-size: 14px; margin-left: -65px;}
         .slider{
           width: 143%;
         }
