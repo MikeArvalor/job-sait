@@ -155,14 +155,19 @@
           width: 100%;
           margin-left: 40px;
         }
+        
         .nav2{
-          margin-left: 80px;
+          margin-left: 10px;
+          font-size: 17px;
         }
      .nav3{ width: 110%;}
      .img2{height: 8% !important;}
         .nav3 p{
          
-          margin-right: 250px;
+          margin-left: 1px !important;
+          font-size: 15px;
+          
+          
         }
         .fon p{margin-left: 550px;}
       .fon a{ margin-left: 100px;}
@@ -246,8 +251,8 @@
 
     }
     @media screen and (max-width: 1370px){
-      .nav2{ margin-left: 10px;}
-      .nav3 p{ margin-left: -130px;}
+      .nav2{ margin-left: -40px; font-size: 17px;}
+      .nav3 p{ margin-right:150px; }
    
       .img2{
         margin-left: 27px;
@@ -257,7 +262,7 @@
           .nav3 {
             margin-left: -40px !important;
           }
-          .nav3 p{margin-left: 20px !important;}
+          .nav3 p{margin-left: -120px !important;}
           .fon p{margin-left: 350px;}
           .fon a{ margin-left: -50px;}
     }
