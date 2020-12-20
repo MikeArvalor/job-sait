@@ -7,7 +7,8 @@ body{
     padding: 0;
 
 
-     
+    background: url(../back.jpg);
+    height: 300%;
       
       font-size: 12px;
       color: #999;
@@ -502,7 +503,7 @@ margin-top: 70px;
         .menu ul li {
           -webkit-transform: rotate(-45deg); /* rotate the list item */
           -moz-transform: rotate(-45deg); /* rotate the list item */
-          width: 50px;
+          width: 40px;
           overflow: hidden;	
           margin: 10px 0px;
           padding: 5px 5px 5px 18px;
@@ -593,7 +594,7 @@ margin-top: -125px;padding-left: 5px;
         .info img{margin-top: 30px;}
        
         .rectangle {
-          background: #FFB300;
+          background: #F60018;
           height: 50px;
           width: 1080px;
           position: relative;
@@ -608,14 +609,14 @@ margin-top: -125px;padding-left: 5px;
         
         .rectangle h2 {
           font-size: 30px;
-          color: #fff;
+          color: #FFB300;
           padding-top: 6px;
           text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
           text-align: center;
         }
         
         .triangle-l {
-          border-color: transparent #FFB300 transparent transparent;
+          border-color: transparent #F60018 transparent transparent;
           border-style:solid;
           border-width:15px;
           height:0px;
@@ -627,7 +628,7 @@ margin-top: -125px;padding-left: 5px;
         }
         
         .triangle-r {
-          border-color: transparent transparent transparent #FFB300;
+          border-color: transparent transparent transparent #F60018;
           border-style:solid;
           border-width:15px;
           height:0px;
@@ -653,7 +654,7 @@ margin-top: -125px;padding-left: 5px;
         }
         
         .info p a {
-          color: #F60018;
+          color: #FFB300;
           text-decoration: none;
         }
         

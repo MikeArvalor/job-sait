@@ -2,7 +2,18 @@
     width: 20%;
     
     }
-    
+    .social-link{
+      font-size: 26px;
+      margin-top: -25px;
+      margin-right: 40px;
+      float: right;
+    }
+    .social-link i:hover{
+      color: #F60018;
+  
+      transition: .5s;
+    }
+  
     .nav-item{
     padding:0 10px;
     }
@@ -251,7 +262,7 @@
 
     }
     @media screen and (max-width: 1370px){
-      .nav2{ margin-left: -40px; font-size: 17px;}
+      .nav2{ margin-left: -40px; font-size: 15.5px;}
       .nav3 p{ margin-right:150px; }
    
       .img2{

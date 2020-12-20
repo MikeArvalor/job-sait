@@ -31,7 +31,18 @@
       font-weight: bold;
 
     }
-
+    .social-link{
+      font-size: 26px;
+      margin-top: -25px;
+      margin-right: 40px;
+      float: right;
+    }
+    .social-link i:hover{
+      color: #F60018;
+  
+      transition: .5s;
+    }
+  
     .nav-link:hover{
 
       border-bottom: 2px solid #e01533;
